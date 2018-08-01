@@ -1,7 +1,7 @@
 import { LitElement, html } from './lit-element.js'
 // 'https://lolcow.farm/banner'
 
-class LolcatPost extends LitElement {
+class LolcowPost extends LitElement {
   static get properties () {
     return {
       body: Array,
@@ -24,4 +24,4 @@ class LolcatPost extends LitElement {
   }
 }
 
-window.customElements.define('lolcat-post', LolcatPost)
+window.customElements.define('lolcow-post', LolcowPost)
